@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int nNum = 10;
+
+int main()
+{
+
+  int nNum = 20;
+  
+  {
+    int nNum1 = 30;
+    int nNum = 40;
+    
+    cout<<nNum1<<endl;
+    cout<<nNum<<endl;
+  }
+   cout<<nNum<<endl;
+
+
+  return 0;
+}
